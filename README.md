@@ -1,8 +1,8 @@
-# Ratna Babu - Professional Portfolio
+Professional Portfolio
 
-This repository contains the source code for my personal portfolio website, a dynamic and interactive single-page application designed to showcase my skills, projects, and experience as a full-stack developer and AI/ML enthusiast.
+A personal portfolio website built with HTML, CSS, and JavaScript to showcase my projects, skills, achievements, and experiences. Deployed on Vercel.
 
-**Live Demo**: [https://your-live-demo-link.com](https://your-live-demo-link.com)
+**Live Demo**: [Portfolio](https://portfolio-kappa-topaz-72.vercel.app/)
 
 ---
 
