@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratna Babu | Professional Portfolio</title>
+    <meta name="description" content="The professional portfolio of Ratna Babu, a passionate Full-Stack Developer specializing in modern web technologies and AI/ML solutions.">
+    <link rel="icon" type="image/png" href="./profilepic.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="cursor-head-dot"></div>
+    <svg class="cursor-trail-svg">
+        <path id="cursor-trail-path"></path>
+    </svg>
+
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo"></a>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#featured" class="nav-link">Featured</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link nav-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-text">
+                    <h1 class="hero-title"></h1>
+                    <p class="hero-description"></p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary"></a>
+                        <a href="#" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <div class="hero-image-bg"></div>
+                    <img src="" alt="Portrait of Ratna Babu" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content"></div>
+            </div>
+        </section>
+
+        <section class="featured" id="featured">
+            <div class="container">
+                <h2 class="section-title">Featured Posts</h2>
+                <div class="featured-slider-container">
+                    <div class="featured-slider-wrapper">
+                        <div class="featured-slides-container">
+                            <!-- Slides will be injected here by JavaScript -->
+                        </div>
+                    </div>
+                    <button class="slider-arrow prev" id="featured-prev" aria-label="Previous Slide">←</button>
+                    <button class="slider-arrow next" id="featured-next" aria-label="Next Slide">→</button>
+                    <div class="slider-pagination" id="featured-pagination">
+                        <!-- Pagination dots will be injected here -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section-title">My Skills</h2>
+                <div class="skills-filters"></div>
+                <div class="skills-grid"></div>
+            </div>
+        </section>
+
+        <section class="experience" id="experience">
+            <div class="container">
+                <h2 class="section-title">Experience & Internships</h2>
+                <div class="timeline"></div>
+            </div>
+        </section>
+
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid"></div>
+                <div class="show-more-container">
+                    <button class="btn btn-secondary" id="show-more-projects">Show More</button>
+                    <button class="btn btn-secondary" id="show-less-projects">Show Less</button>
+                </div>
+            </div>
+        </section>
+
+         <section class="certificates" id="certificates">
+            <div class="container">
+                <h2 class="section-title">Certificates & Awards</h2>
+                <div class="certificates-gallery"></div>
+                <div class="show-more-container">
+                    <button class="btn btn-secondary" id="show-more-certs">Show More</button>
+                    <button class="btn btn-secondary" id="show-less-certs">Show Less</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="contact-text"></p>
+                <a href="#" class="contact-email"></a>
+                 <div class="social-links"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p></p>
+        </div>
+    </footer>
+
+    <div class="image-modal-overlay" id="imageModal">
+        <button class="image-modal-close" id="imageModalClose" aria-label="Close">✕</button>
+        <img class="image-modal-content" id="imageModalImg" alt="Preview">
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>

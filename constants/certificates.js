@@ -1,0 +1,27 @@
+export const certificates = [
+    { name: "Meta Programming with JavaScript", path: "constants/certificates/Meta - Programming with JavaScript_page-0001.jpg", thumbnail: "constants/certificates/Meta - Programming with JavaScript_page-0001.jpg" },
+    { name: "Full Stack Web Development", path: "constants/certificates/Full_Stack_Web_Development-Bantupalli_Ratna_Babu_page-0001.jpg", thumbnail: "constants/certificates/Full_Stack_Web_Development-Bantupalli_Ratna_Babu_page-0001.jpg" },
+    { name: "Full Stack Internship", path: "constants/certificates/Internship - Full stack web development_page-0001.jpg", thumbnail: "constants/certificates/Internship - Full stack web development_page-0001.jpg" },
+    { name: "Microsoft AI Skills", path: "constants/certificates/Microsoft Ai skills_page-0001.jpg", thumbnail: "constants/certificates/Microsoft Ai skills_page-0001.jpg" },
+    
+    { name: "AI Primer", path: "constants/certificates/Artificial Intelligence Primer Certification_page-0001.jpg", thumbnail: "constants/certificates/Artificial Intelligence Primer Certification_page-0001.jpg" },
+    { name: "NASA Space Apps Challenge", path: "constants/certificates/NASA Space Apps Challenge_page-0001.jpg", thumbnail: "constants/certificates/NASA Space Apps Challenge_page-0001.jpg" },
+    { name: "AWS Cloud Foundations", path: "constants/certificates/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20240127-29-x0ccil_page-0001.jpg", thumbnail: "constants/certificates/AWS_Academy_Graduate___AWS_Academy_Cloud_Foundations_Badge20240127-29-x0ccil_page-0001.jpg" },
+    { name: "Cloud Computing", path: "constants/certificates/Cloud Computing_page-0001.jpg", thumbnail: "constants/certificates/Cloud Computing_page-0001.jpg" },
+    { name: "AI Foundation", path: "constants/certificates/Artificial Intelligence Foundation Certification_page-0001.jpg", thumbnail: "constants/certificates/Artificial Intelligence Foundation Certification_page-0001.jpg" },
+    { name: "Computer Vision 101", path: "constants/certificates/Computer Vision 101_page-0001.jpg", thumbnail: "constants/certificates/Computer Vision 101_page-0001.jpg" },
+    { name: "Creating Apps in Python", path: "constants/certificates/Creating Apps in Python.png", thumbnail: "constants/certificates/Creating Apps in Python.png" },
+    { name: "Edunet Orientation", path: "constants/certificates/Edunet - SkillsBuuild Orientation_page-0001.jpg", thumbnail: "constants/certificates/Edunet - SkillsBuuild Orientation_page-0001.jpg" },
+    { name: "Java Fundamentals", path: "constants/certificates/Edx Java Fundamentals_page-0001.jpg", thumbnail: "constants/certificates/Edx Java Fundamentals_page-0001.jpg" },
+    { name: "Internship Training", path: "constants/certificates/_Certificate Of Internship Training.jpg", thumbnail: "constants/certificates/_Certificate Of Internship Training.jpg" },
+    { name: "APSSDC AI", path: "constants/certificates/APSSDC AI_page-0001.jpg", thumbnail: "constants/certificates/APSSDC AI_page-0001.jpg" },
+    { name: "Introduction to AI", path: "constants/certificates/Introduction to AI_page-0001.jpg", thumbnail: "constants/certificates/Introduction to AI_page-0001.jpg" },
+    { name: "Introduction to Deep Learning", path: "constants/certificates/Introduction to Deep Learning_page-0001.jpg", thumbnail: "constants/certificates/Introduction to Deep Learning_page-0001.jpg" },
+    { name: "Introduction to C", path: "constants/certificates/Introduction to programming in C (1)_page-0001.jpg", thumbnail: "constants/certificates/Introduction to programming in C (1)_page-0001.jpg" },
+    { name: "Meta Front-End Development", path: "constants/certificates/Meta - Introduction to Front-End Development_page-0001.jpg", thumbnail: "constants/certificates/Meta - Introduction to Front-End Development_page-0001.jpg" },
+    { name: "Meta Version Control", path: "constants/certificates/Meta - Version Control_page-0001.jpg", thumbnail: "constants/certificates/Meta - Version Control_page-0001.jpg" },
+    
+    { name: "Python Fundamentals", path: "constants/certificates/Programming Fundamentals using Python part-1_page-0001.jpg", thumbnail: "constants/certificates/Programming Fundamentals using Python part-1_page-0001.jpg" },
+    { name: "Python Boot Camp", path: "constants/certificates/Python Boot Camp.png", thumbnail: "constants/certificates/Python Boot Camp.png" },
+    { name: "Python Basic", path: "constants/certificates/python_basic certificate_page-0001.jpg", thumbnail: "constants/certificates/python_basic certificate_page-0001.jpg" }
+];
