@@ -4,6 +4,8 @@ A personal portfolio website built with HTML, CSS, and JavaScript to showcase my
 
 **Live Demo**: [Portfolio](https://portfolio-kappa-topaz-72.vercel.app/)
 
+<img width="1470" height="727" alt="Screenshot 2025-08-27 213830" src="https://github.com/user-attachments/assets/6bd698e3-a542-48ca-8068-5c4e830f306a" />
+
 ---
 
 ## Features
